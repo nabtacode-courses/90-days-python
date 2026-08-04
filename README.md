@@ -3,7 +3,7 @@
 > 100% Free • Practical • Project-Based
 
 Created and taught by **Salma Snawi**  
-**Software Engineer | Front-End Developer | Programming Instructor**
+**Software Engineer | Programming Instructor**
 
 ---
 

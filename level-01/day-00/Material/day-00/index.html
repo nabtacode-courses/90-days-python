@@ -14,8 +14,264 @@
 <main class="page">
 <section class="section"><button class="toggle" aria-expanded="true"><span class="heading"><span class="icon">01</span>Learning Objectives</span><span class="arrow"></span></button><div class="content"><div class="goals"><div class="goal"><b>01</b>Install and verify Python</div><div class="goal"><b>02</b>Install VS Code and its Python extension</div><div class="goal"><b>03</b>Create and run a Python file</div></div></div></section>
 <section class="section"><button class="toggle" aria-expanded="true"><span class="heading"><span class="icon">02</span>Required Tools</span><span class="arrow"></span></button><div class="content"><ul><li><strong>Python 3</strong> â€” the programming language we will use.</li><li><strong>VS Code</strong> â€” the editor where we will write our code.</li><li><strong>Python Extension</strong> â€” the VS Code extension that helps us run and understand Python.</li></ul><div class="note">Download software from its official website only. If these tools are already installed, continue to the verification step.</div></div></section>
-<section class="section"><button class="toggle" aria-expanded="true"><span class="heading"><span class="icon">03</span>Install and Verify Python</span><span class="arrow"></span></button><div class="content"><ol><li>Open the official Python website and download the latest stable version.</li><li>Open the installer.</li><li><strong>Important:</strong> enable <strong>Add python.exe to PATH</strong>.</li><li>Choose <strong>Install Now</strong> and wait for installation to finish.</li></ol><div class="note"><strong>Why is PATH important?</strong><br>It allows you to run Python commands from any Terminal window.</div><h3>Verify the installation</h3><p>Open Command Prompt and try these commands:</p><div class="code"><div class="codebar"><span>Terminal</span><button class="copy">Copy</button></div><pre>python --version
-# If that does not work:
+<section class="section">
+
+<button class="toggle" aria-expanded="true">
+
+<span class="heading">
+
+<span class="icon">03</span>
+
+Setup Checklist & Downloads
+
+</span>
+
+<span class="arrow"></span>
+
+</button>
+
+
+<div class="content">
+
+
+<h3>Before You Start</h3>
+
+<p>
+Before writing your first Python program, let's prepare your development environment.
+</p>
+
+
+<div class="cards">
+
+
+<article class="card task">
+
+<h3>🐍 Python 3</h3>
+
+<p>
+Python is the programming language we will learn throughout this course.
+<br><br>
+
+<strong>Download:</strong><br>
+
+https://www.python.org/downloads/
+
+</p>
+
+</article>
+
+
+
+<article class="card home">
+
+<h3>💻 Visual Studio Code</h3>
+
+<p>
+VS Code is the editor where we will write, organize, and run our Python programs.
+<br><br>
+
+<strong>Download:</strong><br>
+
+https://code.visualstudio.com/
+
+</p>
+
+</article>
+
+
+
+<article class="card challenge">
+
+<h3>🔧 Git</h3>
+
+<p>
+Git helps programmers track changes and save versions of their projects.
+We will use it later with GitHub.
+<br><br>
+
+<strong>Download:</strong><br>
+
+https://git-scm.com/
+
+</p>
+
+</article>
+
+
+</div>
+
+
+
+<h3>Installation Checklist</h3>
+
+
+<ul>
+
+<li>
+Install Python 3
+</li>
+
+
+<li>
+Enable:
+<strong>Add python.exe to PATH</strong>
+</li>
+
+
+<li>
+Install VS Code
+</li>
+
+
+<li>
+Install Python Extension by Microsoft
+</li>
+
+
+<li>
+Install Git (we will use it later)
+</li>
+
+
+</ul>
+
+
+
+
+<div class="note">
+
+<strong>Important:</strong>
+
+<br><br>
+
+During Python installation, make sure you check:
+
+<br>
+
+<code>Add python.exe to PATH</code>
+
+<br><br>
+
+This allows you to run Python commands from the Terminal.
+
+</div>
+
+
+
+<h3>Terminal Commands You Will Use</h3>
+
+
+<div class="code">
+
+
+<div class="codebar">
+
+<span>Terminal</span>
+
+<button class="copy">
+
+Copy
+
+</button>
+
+</div>
+
+
+<pre>
+
+# Check Python installation
+
+python --version
+
+
+# Windows alternative
+
+py --version
+
+
+# Check Git installation
+
+git --version
+
+
+# Run a Python file
+
+python file_name.py
+
+
+# Windows alternative
+
+py file_name.py
+
+</pre>
+
+
+</div>
+
+
+
+<h3>Common Beginner Mistakes</h3>
+
+
+<ul>
+
+<li>
+Installing Python without enabling PATH.
+</li>
+
+
+<li>
+Creating files like:
+<code>program.py.txt</code>
+instead of:
+<code>program.py</code>
+</li>
+
+
+<li>
+Writing Terminal commands inside Python files.
+</li>
+
+
+<li>
+Installing too many VS Code extensions.
+</li>
+
+
+</ul>
+
+
+
+<div class="note success">
+
+<strong>Setup Ready Checklist:</strong>
+
+<br><br>
+
+✓ Python installed
+
+<br>
+
+✓ VS Code installed
+
+<br>
+
+✓ Python Extension installed
+
+<br>
+
+✓ Terminal works correctly
+
+<br>
+
+✓ python --version shows a version
+
+</div>
+
+
+</div>
+
+</section># If that does not work:
 py --version</pre></div><div class="note success">Expected output: <strong>Python 3.x.x</strong>. Your exact version may be different.</div></div></section>
 <section class="section"><button class="toggle" aria-expanded="true"><span class="heading"><span class="icon">04</span>Install VS Code & the Python Extension</span><span class="arrow"></span></button><div class="content"><h3>Install Visual Studio Code</h3><ol><li>Download and open the VS Code installer.</li><li>Accept the license agreement.</li><li>Keep the default installation location.</li><li>Enable <strong>Add to PATH</strong> if the option appears.</li><li>Complete the installation and open VS Code.</li></ol><h3>Install the Python Extension</h3><ol><li>Open the Extensions tab in VS Code.</li><li>Search for <strong>Python</strong>.</li><li>Choose the extension published by <strong>Microsoft</strong>.</li><li>Click <strong>Install</strong>.</li></ol><div class="note">Keep your setup light. You only need the essential extensions at the beginning.</div></div></section>
 <section class="section"><button class="toggle" aria-expanded="true"><span class="heading"><span class="icon">05</span>Create a Python File</span><span class="arrow">⌄</span></button><div class="content"><ol><li>Create a normal folder anywhere on your computer. You can name it <strong>python-practice</strong>.</li><li>Open VS Code and choose <strong>File &gt; Open Folder</strong>.</li><li>Select the folder you just created.</li><li>Create a new file named <strong>first_program.py</strong>.</li></ol><div class="note success"><strong>Correct:</strong> first_program.py<br><strong>Incorrect:</strong> first_program.py.txt</div></div></section>
@@ -42,9 +298,67 @@ I am learning Python to build real projects.
 My goal is to complete the 90-day journey.
 Python is ready!
 ==============================</pre></div></div></section>
+<div class="question">
+
+<p>
+5. Which command checks the Python installation?
+</p>
+
+
+<div class="answers">
+
+<label class="answer">
+
+<input type="radio" name="q5" value="0">
+
+python start
+
+</label>
+
+
+<label class="answer">
+
+<input type="radio" name="q5" value="1">
+
+python --version
+
+</label>
+
+
+<label class="answer">
+
+<input type="radio" name="q5" value="0">
+
+run python
+
+</label>
+
+
+</div>
+
+</div>
 <section class="section"><button class="toggle" aria-expanded="true"><span class="heading"><span class="icon">10</span>Test Cases</span><span class="arrow"></span></button><div class="content"><ol><li>Check the version with <strong>python --version</strong> or <strong>py --version</strong>.</li><li>Run <strong>python first_program.py</strong>.</li><li>Change one sentence, save, and run the file again.</li><li>Remove one quotation mark, run the program, read the error, then fix it.</li></ol></div></section>
 <!-- EDIT QUIZ: value="1" marks the correct answer; value="0" marks an incorrect answer. -->
 <section class="section"><button class="toggle" aria-expanded="true"><span class="heading"><span class="icon">11</span>Quick Quiz</span><span class="arrow"></span></button><div class="content"><form id="quiz"><div class="question"><p>1. Which extension is used for Python files?</p><div class="answers"><label class="answer"><input type="radio" name="q1" value="0"> .html</label><label class="answer"><input type="radio" name="q1" value="1"> .py</label><label class="answer"><input type="radio" name="q1" value="0"> .css</label></div></div><div class="question"><p>2. What does print() do?</p><div class="answers"><label class="answer"><input type="radio" name="q2" value="0"> Deletes a file</label><label class="answer"><input type="radio" name="q2" value="1"> Displays a value on screen</label><label class="answer"><input type="radio" name="q2" value="0"> Installs Python</label></div></div><div class="question"><p>3. What is wrong with: print("Hello)</p><div class="answers"><label class="answer"><input type="radio" name="q3" value="1"> The closing quotation mark is missing</label><label class="answer"><input type="radio" name="q3" value="0"> print must use a capital P</label><label class="answer"><input type="radio" name="q3" value="0"> Python cannot display text</label></div></div><div class="question"><p>4. What is the correct workflow?</p><div class="answers"><label class="answer"><input type="radio" name="q4" value="1"> Create, write, save, run</label><label class="answer"><input type="radio" name="q4" value="0"> Run, create, save, write</label><label class="answer"><input type="radio" name="q4" value="0"> Save, run, create, write</label></div></div><div class="quizrow"><button class="primary" type="submit">Check My Score</button><span id="score" class="score" aria-live="polite"></span></div></form></div></section>
+<section class="section">
+
+<div class="content">
+
+<h3>Before Moving To Day 1</h3>
+
+<ul>
+
+<li>Complete the task.</li>
+
+<li>Finish the homework.</li>
+
+<li>Make sure Python runs correctly.</li>
+
+</ul>
+
+</div>
+
+</section>
 <div class="footer">Nabta Code ” Learn. Build. Grow.</div>
 </main><button class="print" onclick="window.print()" title="Print or save as PDF" aria-label="Print or save as PDF">PDF</button>
 <script>
